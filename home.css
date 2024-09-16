@@ -618,13 +618,14 @@ body {
     #view-more-btn {
         display: block;
         margin: 1rem auto;
-        padding: 0.5rem 1rem;
+        padding: 1rem 3rem;
         background: linear-gradient(to right, #8e2de2, #4a00e0);
         color: white;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         transition: all 0.3s ease;
+        font-size: 1.0rem;  
     }
 
     #view-more-btn:hover {
