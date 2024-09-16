@@ -322,6 +322,7 @@ body {
 }
 
 .prize-pool {
+    
     background: linear-gradient(to right, #00c853, #2196f3);
     color: white;
     font-size: 1.5rem;
@@ -329,6 +330,17 @@ body {
     border-radius: 50px;
     display: inline-block;
     margin-bottom: 3rem;
+}
+.internship{
+    margin-top: 2rem;
+    background: linear-gradient(to right, #00c853, #2196f3);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: large;
+
 }
 
 .trophy-icon {
