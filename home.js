@@ -32,18 +32,22 @@ document.querySelectorAll('.nav-links li').forEach(link => {
 // View More functionality for problem statements
 const viewMoreBtn = document.getElementById('view-more-btn');
 const problemCards = document.querySelectorAll('.problem-card');
+let isExpanded = false;
 
 function handleViewMore() {
+    isExpanded = true;
     problemCards.forEach(card => card.classList.add('show'));
     viewMoreBtn.style.display = 'none';
 }
 
 function checkProblemCards() {
-    if (window.innerWidth <= 768 && problemCards.length > 2) {
+    if (window.innerWidth <= 768 && !isExpanded) {
         viewMoreBtn.style.display = 'block';
         problemCards.forEach((card, index) => {
             if (index >= 2) {
                 card.classList.remove('show');
+            } else {
+                card.classList.add('show');
             }
         });
     } else {

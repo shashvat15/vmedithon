@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.highlight {
+    background-color: cyan;
+    padding: 2px;
+    border-radius: 3px;
+}
 body {
     font-family: 'Space Grotesk', Arial, sans-serif;
     line-height: 1.6;
